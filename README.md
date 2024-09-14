@@ -4,7 +4,7 @@ This repo serves as a record of the different sorting algorithims I have impleme
 
 ## Description
 
-Honestly, there isn't much to it.  In order for me to actually understand an algorithim I need to analyze it and put it in practice, and I wanted to save my progress.
+Honestly, there isn't much to it.  In order for me to actually understand an algorithim I need to analyze it and put it in practice, and I wanted to save my progress.  Most of the algorithims are not super optimized for either space or speed, but moreso for readability in order for myself to easily look back them and remember how they work at some point in the future
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ ListenToAJ
 
 ## Current Algorithims Created:
 
-* Insertion Sort (Code not by me)
+* Insertion Sort
 * Merge Sort
 
 ## License
