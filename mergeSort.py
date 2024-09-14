@@ -2,29 +2,26 @@ import random # Just for generating random lists to sort
 
 #~ Merge function for piecing lists back together
 def merge(left, right, parent):
-    leftBucket = left
-    rightBucket = right
     output = []
-
     leftIndex = 0
     rightIndex = 0
 
     #- Here we slowly build out our sorted lists
     while(len(output) < len(parent)):
         #' Once either list has been exhausted we can safely append the other lists leftovers
-        if leftIndex == len(leftBucket):
-            output += rightBucket[rightIndex:]
+        if leftIndex == len(left):
+            output += right[rightIndex:]
             continue
-        elif rightIndex == len(rightBucket):
-            output += leftBucket[leftIndex:]
+        elif rightIndex == len(right):
+            output += left[leftIndex:]
             continue
         
         #' We start at the front of each of the two lists and compare
-        if leftBucket[leftIndex] <= rightBucket[rightIndex]:
-            output.append(leftBucket[leftIndex])
+        if left[leftIndex] <= right[rightIndex]:
+            output.append(left[leftIndex])
             leftIndex = leftIndex + 1
         else:
-            output.append(rightBucket[rightIndex])
+            output.append(right[rightIndex])
             rightIndex = rightIndex + 1
 
     #- Outputting our now sorted list
