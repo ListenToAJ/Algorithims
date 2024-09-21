@@ -14,6 +14,13 @@ Honestly, there isn't much to it.  In order for me to actually understand an alg
 
 * Insertion Sort
 * Merge Sort
+* Bogo Sort
+
+## Planned Algorithims:
+* Quick Sort
+* Bubble Sort
+* Selection Sort
+* Heap Sort
 
 ## License
 

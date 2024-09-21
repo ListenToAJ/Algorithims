@@ -40,9 +40,9 @@ def mergeSort(arr):
     merge(firstHalf, secondHalf, arr)
 
 #~ Driver Code
-arr = random.sample(range(1, 100), 20)
-print("Your pre-sorted list is:  " + str(arr))
+arr = random.sample(range(1, 20), 10)
+print("Your list before sorting: " + str(arr))
 mergeSort(arr)
-print("\n\nYour post sorted list is: " + str(arr))
+print("\nYour list after sorting:  " + str(arr))
 
 #* Code / Comments by me
